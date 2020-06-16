@@ -42,3 +42,20 @@ def number_to_full_name__month(month_num)
         "Not included"
     end
 end
+
+def number_to_short_month_name(month_num)
+    case month_num
+    when 1
+        "Jan"
+    when 4
+        "Apr"
+    when 10
+        "Oct"
+    else
+        "Not included"
+    end
+end
+
+def method_name
+    
+end
