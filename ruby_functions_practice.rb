@@ -43,8 +43,8 @@ def number_to_full_month_name(month_num)
     end
 end
 
-def number_to_short_month_name(month_num)
-    case month_num
+def number_to_short_month_name(short_month)
+    case short_month
     when 1
         "Jan"
     when 4
@@ -67,5 +67,5 @@ end
 
 def fahrenheit_to_celsius(fahrenheit)
     result = (fahrenheit − 32) * (5 / 9)
-    return result.to_f
+    return result.to_i
 end
